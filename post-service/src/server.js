@@ -9,7 +9,7 @@ const { RedisStore } = require("rate-limit-redis");
 
 const postRoutes = require("./routes/post-routes");
 const logger = require("./utils/logger");
-const errorHandler = require("../../identity-service/src/middleware/erroHandler");
+const errorHandler = require("./middleware/errorHandler");
 const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
