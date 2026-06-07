@@ -1,5 +1,5 @@
 # use officail nodejs 18 image with alpine linux as the base image
-FROM node:18-alpine
+FROM node:20-alpine
 
 WORKDIR /use/src/app
 
